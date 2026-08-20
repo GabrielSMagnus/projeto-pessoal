@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #111827;
+}
+
+header {
+    background-color: #111827;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+nav h1 {
+    font-size: 28px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+#inicio {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#inicio h2 {
+    font-size: 50px;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    font-size: 20px;
+    max-width: 600px;
+    margin-bottom: 30px;
+    color: #6b7280;
+}
+
+#inicio a {
+    background-color:  #2563eb;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#inicio a:hover {
+    background-color: #1d4ed8;
+}
+
+
+#sobre {
+    padding: 80px 50px;
+    text-align: center;
+    background-color: white;
+}
+
+#sobre h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+#sobre p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #6b7280;
+}
+
+#servicos {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+#servicos h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.servicos-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.servicos-container article {
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    transition: 0.3s;
+}
+
+.servicos-container article:hover {
+    transform: translateY(-5px);
+}
+
+.servicos-container h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.servicos-container p {
+    color: #6b7280;
+    line-height: 1.5;
+}
+
+#beneficios {
+    padding: 80px 50px;
+    background-color: #111827;
+    color: white;
+    text-align: center;
+}
+
+#beneficios h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.beneficios-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.beneficios-container article {
+    width: 220px;
+    padding: 25px;
+    background-color: #1f2937;
+    border-radius: 10px;   
+    transition: 0.3s;
+}
+
+.beneficios-container article:hover {
+    transform: translateY(-5px);
+}
+
+.beneficios-container h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.beneficios-container p {
+    color: #d1d5db;
+    line-height: 1.5; 
+}
+
+#contato {
+    padding: 80px 50px;
+    text-align: center;
+    background-color: #f5f7fa;
+}
+
+#contato > p {
+    color: #6b7280;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#formulario span {
+    color: #dc2626;
+    font-size: 14px;
+    text-align: left;
+}
+
+#formulario input, #formulario textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#formulario textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+#formulario button {
+    padding: 15px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#formulario button:hover {
+    background-color: #1d4ed8;
+}
+
+
+
+footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+footer p {
+    font-size: 14px;
+}
